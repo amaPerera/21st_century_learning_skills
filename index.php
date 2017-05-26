@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Puppy Website Template</title>
+	<title>21st Century Learning Skills</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -15,13 +15,16 @@
 					<a class="home" href="index.html">Home</a>
 				</li>
 				<li>
-					<a class="about" href="about.html">About</a>
+					<a class="critical_thinking" href="critical_thinking.html">Critical Thinking</a>
 				</li>
 				<li>
-					<a class="blog" href="blog.html">Blog</a>
+					<a class="creative_thinking" href="creative_thinking.html">Creative Thinking</a>
 				</li>
 				<li>
-					<a class="services" href="services.html">Services</a>
+					<a class="collaborating" href="collaborating.html">Collaborating</a>
+				</li>
+				<li>
+					<a class="communicating" href="communicating.html">Communicating</a>
 				</li>
 			</ul>
 		</div>
@@ -71,32 +74,6 @@
 			</ul>
 		</div>
 	</div>
-	<div id="footer">
-		<div class="logo">
-			<a href="index.html"><img src="images/logo.jpg" alt="Logo"></a>
-		</div>
-		<ul>
-			<li>
-				<a href="index.html">Home</a>
-			</li>
-			<li>
-				<a href="about.html">About</a>
-			</li>
-			<li>
-				<a href="blog.html">Blog</a>
-			</li>
-			<li>
-				<a href="services.html">Services</a>
-			</li>
-		</ul>
-		<p>
-			&copy; Copyright &copy; 2023. Company name all rights reserved
-		</p>
-		<div id="connect">
-			<a href="http://freewebsitetemplates.com/go/facebook/" target="_blank" id="facebook">Facebook</a>
-			<a href="http://freewebsitetemplates.com/go/twitter/" target="_blank" id="twitter">Twitter</a>
-			<a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank" id="googleplus">Google&#43;</a>
-		</div>
-	</div>
+	<?php include "footer.html" ?>
 </body>
 </html>
